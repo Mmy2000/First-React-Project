@@ -17,53 +17,54 @@ export default function Portfolio() {
           </div>
           <div className="row gy-4">
             <div className="col-md-4">
-              <div className="inner p-3 rounded-lg  cursor-pointer relative">
+              <div className="inner p-3 overflow-hidden rounded-lg   cursor-pointer relative">
                 <img className="rounded-lg" src={image1} alt="" />
-                <div className="cover absolute top-0 opacity-0 hover:opacity-100 flex items-center justify-center text-white left-0 right-0 bottom-0 bg-red-600">
-                  <i className="fa-solid fa-plus text-8xl"></i>
+                <div className="cover absolute rounded-lg top-4  flex items-center justify-center text-white left-4 right-4 bottom-4 bg-[#1abc9c]">
+                  <i className="fa-solid fa-plus text-8xl "></i>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="inner p-3 rounded-lg  cursor-pointer relative">
+              <div className="inner p-3 overflow-hidden rounded-lg   cursor-pointer relative">
                 <img className="rounded-lg" src={image2} alt="" />
-                <div className="cover absolute top-0 opacity-0 hover:opacity-100 flex items-center justify-center text-white left-0 right-0 bottom-0 bg-red-600">
-                  <i className="fa-solid fa-plus text-8xl"></i>
+                <div className="cover absolute rounded-lg top-4  flex items-center justify-center text-white left-4 right-4 bottom-4 bg-[#1abc9c]">
+                  <i className="fa-solid fa-plus text-8xl "></i>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="inner p-3 rounded-lg  cursor-pointer relative">
+              <div className="inner p-3 overflow-hidden rounded-lg   cursor-pointer relative">
                 <img className="rounded-lg" src={image3} alt="" />
-                <div className="cover absolute top-0 opacity-0 hover:opacity-100 flex items-center justify-center text-white left-0 right-0 bottom-0 bg-red-600">
-                  <i className="fa-solid fa-plus text-8xl"></i>
+                <div className="cover absolute rounded-lg top-4  flex items-center justify-center text-white left-4 right-4 bottom-4 bg-[#1abc9c]">
+                  <i className="fa-solid fa-plus text-8xl "></i>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="inner p-3 rounded-lg  cursor-pointer relative">
+              <div className="inner p-3 overflow-hidden rounded-lg   cursor-pointer relative">
                 <img className="rounded-lg" src={image1} alt="" />
-                <div className="cover absolute top-0 opacity-0 hover:opacity-100 flex items-center justify-center text-white left-0 right-0 bottom-0 bg-red-600">
-                  <i className="fa-solid fa-plus text-8xl"></i>
+                <div className="cover absolute rounded-lg top-4  flex items-center justify-center text-white left-4 right-4 bottom-4 bg-[#1abc9c]">
+                  <i className="fa-solid fa-plus text-8xl "></i>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="inner p-3 rounded-lg  cursor-pointer relative">
+              <div className="inner p-3 overflow-hidden rounded-lg   cursor-pointer relative">
                 <img className="rounded-lg" src={image2} alt="" />
-                <div className="cover absolute top-0 opacity-0 hover:opacity-100 flex items-center justify-center text-white left-0 right-0 bottom-0 bg-red-600">
-                  <i className="fa-solid fa-plus text-8xl"></i>
+                <div className="cover absolute rounded-lg top-4  flex items-center justify-center text-white left-4 right-4 bottom-4 bg-[#1abc9c]">
+                  <i className="fa-solid fa-plus text-8xl "></i>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="inner p-3 rounded-lg  cursor-pointer relative">
+              <div className="inner p-3 overflow-hidden rounded-lg   cursor-pointer relative">
                 <img className="rounded-lg" src={image3} alt="" />
-                <div className="cover absolute top-0 opacity-0 hover:opacity-100 flex items-center justify-center text-white left-0 right-0 bottom-0 bg-red-600">
-                  <i className="fa-solid fa-plus text-8xl"></i>
+                <div className="cover absolute rounded-lg top-4  flex items-center justify-center text-white left-4 right-4 bottom-4 bg-[#1abc9c]">
+                  <i className="fa-solid fa-plus text-8xl "></i>
                 </div>
               </div>
             </div>
+            
             
             
           </div>

@@ -83,3 +83,6 @@ button:focus-visible {
 .lines{
   @apply flex flex-row mt-3 items-center justify-center
 }
+input:focus{
+    box-shadow: none !important;
+}

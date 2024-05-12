@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className='container py-8 bg-[#2c3e50]  fixed flex justify-around   items-center top-0 right-0 left-0 mx-auto'>
+    <div className=' py-8 bg-[#2c3e50] z-50  fixed flex justify-around   items-center top-0 right-0 left-0 '>
         <div>
             <Link className='text-white text-3xl font-black hover:text-white   ' to="">START FRAMEWORK</Link>
         </div>

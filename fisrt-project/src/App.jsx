@@ -6,19 +6,23 @@ import Home from './componet/Home/Home'
 import Contact from './componet/Contact/Contact'
 import Portfolio from './componet/Portfolio/Portfolio'
 import About from './componet/About/About'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Layout from './componet/Layout/Layout'
 
+let router = createBrowserRouter([
+  {path:'' , element:<Layout/> , children:[
+    {index:true , element:<Home/>},
+    {path:'portfolio' , element:<Portfolio/>},
+    {path:'contact' , element:<Contact/>},
+    {path:'about' , element:<About/>},
+  ]}
+])
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <Home/>
-      <Portfolio/>
-      <Contact/>
-      <About/>
-    </>
-  )
+  return <RouterProvider router={router}></RouterProvider>
+    
+  
 }
 
 export default App

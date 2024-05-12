@@ -77,3 +77,9 @@ button:focus-visible {
 .row{
   @apply flex flex-wrap py-5 flex-row
 }
+.line-1{
+  @apply h-1 w-20
+}
+.lines{
+  @apply flex flex-row mt-3 items-center justify-center
+}

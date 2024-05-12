@@ -4,10 +4,10 @@ export default function Contact() {
   return <>
     <section className='h-screen'>
             <h2 className='text-slate-700 pt-32 text-4xl font-bold'>CONATCT SECTION</h2>    
-            <div className='flex flex-row mt-2 items-center justify-center'>
-                <div className="line-1 h-1 w-20 bg-slate-700"></div>
+            <div className='lines'>
+                <div className="line-1 bg-slate-700"></div>
                 <i class="fa-solid fa-star mx-4"></i>
-                <div className="line-1 h-1 w-20 bg-slate-700 "></div>
+                <div className="line-1  bg-slate-700 "></div>
             </div>
             <div class="container p-5 my-3">
         <div class="row px-5">

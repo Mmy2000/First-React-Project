@@ -71,7 +71,6 @@ button:focus-visible {
   }
 }
 .active{
-  font-weight: 900;
-  padding-bottom: 2px;
-  border-bottom: solid 2px #333;
+  background-color: #1abc9c;
+  border-radius: 10px;
 }

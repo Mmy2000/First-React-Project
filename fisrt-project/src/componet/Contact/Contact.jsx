@@ -10,7 +10,7 @@ export default function Contact() {
                 <div className="line-1  bg-slate-700 "></div>
             </div>
             <div class="container p-5 my-3">
-        <div class="row px-5">
+        <div class="row px-52">
             <div class="form-floating mb-3">
                 <input type="text" class="form-control border-0 border-bottom " id="user name"
                     placeholder="user name"/>
